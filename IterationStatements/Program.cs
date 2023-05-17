@@ -20,6 +20,12 @@ namespace IterationStatements
                 }
         }
 
+        //public static void UpByThree()
+        //{
+        //    for (int i = 3; i < 1000; i += 3)
+        //        Console.WriteLine(i);
+        //}
+
         public static void IsEqualTo()
         {
             Console.WriteLine("Enter first number:");
@@ -38,6 +44,20 @@ namespace IterationStatements
                 Console.WriteLine($"{firstNum} = {secondNum}");
         }
 
+        //public static bool TwoNumsSame(int num1, int num2)
+        //{
+        //    if(num1 == num2)
+        //    {
+        //        Console.WriteLine($"{num1} and {num2} are the same");
+        //        return true;
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine($"{num1} and {num2} are not the same");
+        //        return false;
+        //    }
+        //}
+
         public static void EvenCheck()
         {
             Console.WriteLine("Hi, please input a number to check if it is even or odd:");
@@ -45,6 +65,18 @@ namespace IterationStatements
             var isEven = (i % 2 == 0) ? "Even" : "Odd";
             Console.WriteLine(isEven);
         }
+
+        //public static void EvenOrOdd(int num)
+        //{
+        //    if(num % 2 == 0)
+        //    {
+        //        Console.WriteLine($"{num} is even");
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine($"{num} is odd");
+        //    }
+        //}
         public static void PositiveOrNegative()
         {
             Console.WriteLine("Please enter a number: ");
@@ -52,6 +84,20 @@ namespace IterationStatements
             var isPositive = (i > 0) ? "Number is Positive" : "Number is Negative";
             Console.WriteLine(isPositive);
         }
+
+        //public static bool IsPositive(int num)
+        //{
+        //    if(num > 0)
+        //    {
+        //        Console.WriteLine($"{num} is positive");
+        //        return true;
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine($"{num} is not positive");
+        //        return false;
+        //    }
+        //}
 
         public static void OldEnoughToVote()
         {
@@ -90,6 +136,29 @@ namespace IterationStatements
             }
         }
 
+        //public static bool CanVote()
+        //{
+        //    Console.WriteLine("Please enter your age: ");
+        //    var canParse = int.TryParse(Console.ReadLine(), out int userAge);
+
+        //    while (canParse == false)
+        //    {
+        //        Console.WriteLine("Please enter a valid age");
+        //        canParse = int.TryParse(Console.ReadLine(), out userAge);
+        //    }
+
+        //    if(userAge >= 18)
+        //    {
+        //        Console.WriteLine($" Congrats! {userAge} is old enough to vote!");
+        //        return true;
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine($"Sorry, {userAge} is not old enough to vote.');
+        //        return true;
+        //    }
+        //}
+
         public static void IntegerRangeCheck()
         {
             Console.WriteLine("Please input an integer:");
@@ -104,6 +173,20 @@ namespace IterationStatements
             }
         }
 
+        //public static bool IsInTenRange(int num)
+        //{
+        //    if(num <= 10 && num >= -10)
+        //    {
+        //        Console.WriteLine($"{num} is in the ten range");
+        //        return true;
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine($"{num} is not in the ten range");
+        //        return false;
+        //    }
+        //}
+
         public static void MultiplicationTable()
         {
             Console.WriteLine("Enter a whole number to generate a multiplication table from 1 to 12");
@@ -114,6 +197,14 @@ namespace IterationStatements
                 Console.WriteLine($"{userInput} * {i} = {answer}");
             }
         }
+
+        //public static void MultiplyThru12(int num)
+        //{
+        //    for(int i = 1; i <= 12; i++)
+        //    {
+        //        Console.WriteLine($"{i} x {num} = {i * num}");
+        //    }
+        //}
 
         static void Main(string[] args)
         {

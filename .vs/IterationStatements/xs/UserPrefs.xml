@@ -1,8 +1,10 @@
 ﻿<Properties StartupConfiguration="{50D1A68A-D869-46C9-A0F3-708635DAE5E4}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.IterationStatements PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench ActiveDocument="IterationStatements/Program.cs">
     <Files>
-      <File FileName="IterationStatements/Program.cs" Line="68" Column="10" />
+      <File FileName="IterationStatements/Program.cs" Line="11" Column="36" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,10 +18,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
 </Properties>
